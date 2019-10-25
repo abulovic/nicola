@@ -12,8 +12,9 @@
 
 .page-header {
 	font-family: "Josefin Sans";
-	background: transparent url(images/luftmensch-header.png) 0 50% no-repeat;
-	background-image: none;
+	background-color: transparent;
+	backbround-image: url(images/luftmensch-header.png);
+	background-repeat: no-repeat;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #000000;
