@@ -1,0 +1,70 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One:400,700');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Righteous:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+
+
+.page-header {
+	font-family: "Josefin Sans";
+	background-color: #ffffff;
+	background-image: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;
+}
+
+.column {
+  padding: 10px;
+  display: inline-block;
+  color: #000000;
+}
+
+.row {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 10px; /* Some padding */
+  width: 250px; /* Set a small width */
+}
+
+.outerbox {
+	width: 270px;
+	float: left;
+	padding: 10px;
+}
+
+.box:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.gallery {
+	display: inline-block;
+	padding-bottom: 30px;
+}
